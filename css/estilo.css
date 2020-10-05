@@ -1,0 +1,25 @@
+.cabecalho {
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgba(55, 241, 117, 0.658);
+    max-width: 100%;
+    padding: auto;
+    color: rgb(214, 67, 30);
+    text-align: center;
+}
+
+.menu {
+    border: black solid 1px;
+}
+
+.corpo {
+    border: black 1px solid;
+}
+
+.rodape {
+    border: black 1px solid;
+}
+
+body {
+    background-color: rgba(151, 146, 146, 0.356);
+}
