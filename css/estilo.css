@@ -10,6 +10,7 @@
 
 .menu {
     border: black solid 1px;
+    background-color: aqua;
 }
 
 .corpo {
@@ -18,6 +19,19 @@
 
 .rodape {
     border: black 1px solid;
+}
+
+#navbarNav {
+    display: flex !important;
+    justify-content: center !important;
+    color: aquamarine;
+}
+
+.nav-item {
+    border: rgba(92, 89, 89, 0.534) 1px solid;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    color: aquamarine;
 }
 
 body {
