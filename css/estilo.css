@@ -1,5 +1,4 @@
 .cabecalho {
-    border: 1px solid black;
     text-align: center;
     background-color: rgba(55, 241, 117, 0.658);
     max-width: 100%;
@@ -8,32 +7,33 @@
     text-align: center;
 }
 
-.menu {
-    border: black solid 1px;
-    background-color: aqua;
+.menu {}
+
+.rodape {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    font-size: 12px;
 }
 
 .corpo {
     border: black 1px solid;
-}
-
-.rodape {
-    border: black 1px solid;
+    background-color: white;
+    width: 100%;
+    min-block-size: 100%;
 }
 
 #navbarNav {
     display: flex !important;
     justify-content: center !important;
-    color: aquamarine;
+    color: rgb(0, 0, 0);
 }
 
 .nav-item {
-    border: rgba(92, 89, 89, 0.534) 1px solid;
-    margin-top: -10px;
+    margin-top: -1px;
     margin-bottom: -10px;
-    color: aquamarine;
 }
 
 body {
-    background-color: rgba(151, 146, 146, 0.356);
+    width: 100%;
 }
