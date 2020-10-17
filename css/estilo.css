@@ -1,24 +1,25 @@
 .cabecalho {
     text-align: center;
-    background-color: rgba(55, 241, 117, 0.658);
+    background-color: rgb(55, 241, 117);
     max-width: 100%;
     padding: auto;
     color: rgb(214, 67, 30);
     text-align: center;
 }
 
-.menu {}
+.menu {
+    background-color: black;
+}
 
 .rodape {
     position: fixed;
     bottom: 0%;
     width: 100%;
-    font-size: 12px;
+    font-size: 12 px;
 }
 
 .corpo {
     border: black 1px solid;
-    background-color: white;
     width: 100%;
     min-block-size: 100%;
 }
@@ -30,10 +31,11 @@
 }
 
 .nav-item {
-    margin-top: -1px;
-    margin-bottom: -10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 body {
     width: 100%;
+    background-image: url("../imagens/fundo_home.jpg");
 }
