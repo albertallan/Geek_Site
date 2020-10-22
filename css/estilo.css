@@ -1,10 +1,32 @@
-.cabecalho {
+.icone {
+    border: azure;
+}
+
+.topo {
+    background-color: rgb(39, 43, 40);
+    margin-bottom: auto;
+}
+
+.topo .cabecalho {
     text-align: center;
-    background-color: rgb(55, 241, 117);
     max-width: 100%;
-    padding: auto;
     color: rgb(214, 67, 30);
     text-align: center;
+}
+
+.jumbotron {
+    background: linear-gradient(50deg, #ff4169, #7c26f8);
+    margin-bottom: auto;
+    max-height: 10%;
+}
+
+.corpo .container .conteudo {
+    background-color: rgba(253, 143, 0, 0.39);
+    max-block-size: 100%;
+    min-height: 81.7vh;
+    display: block;
+    padding: 0 10px 0 10px;
+    margin: 50px 30px 50px 30px;
 }
 
 .menu {
@@ -19,9 +41,10 @@
 }
 
 .corpo {
-    border: black 1px solid;
-    width: 100%;
-    min-block-size: 100%;
+    padding-top: 50px;
+    background-image: url("../imagens/fundo_home.png");
+    display: flex;
+    background-size: cover
 }
 
 #navbarNav {
@@ -37,5 +60,7 @@
 
 body {
     width: 100%;
-    background-image: url("../imagens/fundo_home.jpg");
+    /*background: url(../imagens/fundo_home.png);
+    background-attachment: fixed;
+    */
 }

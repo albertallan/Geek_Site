@@ -16,22 +16,12 @@
 
     <!-- Título Projeto -->
     <title>Espaço Geek</title>
-    <link rel="icon" href="./imagens/geek.png">
+    <link id="icone" rel="icon" href="./imagens/geek.png">
 
 </head>
 <!-- Fim Head -->
 
 <body>
-
-    <header>
-        <!-- inicio Cabecalho -->
-        <div class="cabecalho">
-            <h1><img src="./imagens/geek.png" width="60" height="60"> Espaço Geek
-            </h1>
-        </div>
-    </header>
-    <!-- Fim Cabecalho -->
-
     <div class="menu">
 
         <nav class="navbar navbar-expand-lg navbar-light bg-green">
@@ -68,10 +58,23 @@
             </div>
         </nav>
     </div>
+    <header class="">
+        <!-- inicio Cabecalho -->
+        <div class="jumbotron">
+            <h1 class="display-4" id="titulo"><img src="./imagens/geek.png" width="60" height="60"> Espaço Geek</h1>
 
+        </div>
+    </header>
+    <!-- Fim Cabecalho -->
     <div class="corpo">
         <div class="container">
-            <h1>Corpo</h1>
+            <div class="conteudo">
+                <h1>Corpo</h1>
+                <h2>DDDD</h2>
+
+                <div id="like_button_container">Teste</div>
+
+            </div>
         </div>
     </div>
 
@@ -89,6 +92,10 @@
     </div>
     <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/react.production.min.js"></script>
+    <script src="js/react-dom.production.min.js"></script>
+
+    <script src="arquivos_java/like_button.js"></script>
 </body>
 
 </html>
