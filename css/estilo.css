@@ -1,36 +1,24 @@
-.icone {
-    border: azure;
-}
-
 .topo {
     background-color: rgb(39, 43, 40);
     margin-bottom: auto;
 }
 
-.topo .cabecalho {
-    text-align: center;
-    max-width: 100%;
-    color: rgb(214, 67, 30);
-    text-align: center;
-}
-
 .jumbotron {
-    background: linear-gradient(50deg, #ff4169, #7c26f8);
-    margin-bottom: auto;
+    background-image: linear-gradient( 180.4deg, rgba(9, 30, 61, 1) 45.3%, rgba(95, 123, 190, 1) 279%);
+    margin-bottom: -75px;
+    margin-top: -75px;
     max-height: 10%;
 }
 
 .corpo .container .conteudo {
-    background-color: rgba(253, 143, 0, 0.39);
+    background-image: linear-gradient( 180.4deg, rgba(9, 30, 61, 1) 45.3%, rgba(95, 123, 190, 1) 279%);
     max-block-size: 100%;
     min-height: 81.7vh;
     display: block;
     padding: 0 10px 0 10px;
     margin: 50px 30px 50px 30px;
-}
-
-.menu {
-    background-color: black;
+    color: rgb(170, 170, 170);
+    text-align: center;
 }
 
 .rodape {
@@ -47,15 +35,12 @@
     background-size: cover
 }
 
-#navbarNav {
-    display: flex !important;
-    justify-content: center !important;
-    color: rgb(0, 0, 0);
-}
-
 .nav-item {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: large;
+    font-style: italic;
+    color: white;
 }
 
 body {
